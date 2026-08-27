@@ -27,7 +27,7 @@ Key attributes include **age band, gender, educational level, driving experience
 - **GenAI :**  feature engineering and risk pattern synthesis
 
 # Analysis 1
-## Accidents by Hour Displays accident frequency across different hours of the day, revealing peak danger times and safe periods.
+### Accidents by Hour Displays accident frequency across different hours of the day, revealing peak danger times and safe periods.
 ### Peak Danger Times
 * **Highest Peak (5:00 PM / 17:00):** Records the single highest crash volume of the day with **1,228 accidents** (9.97% of daily total), driven by evening rush-hour commute congestion.
 * **Secondary Evening Peak (4:00 PM – 6:00 PM):** 16:00 (921 crashes) and 18:00 (956 crashes) form an extended high-risk window where traffic volume and fatigue intersect.
@@ -37,7 +37,7 @@ Key attributes include **age band, gender, educational level, driving experience
   <img width="1059" height="485" alt="image" src="https://github.com/user-attachments/assets/38a6a0ef-d9de-4378-b01c-136019cd7035" />
 
 # Analysis 2
-## Vehicle Type Illustrates which vehicle types are most frequently involved in accidents across the dataset.
+### Vehicle Type Illustrates which vehicle types are most frequently involved in accidents across the dataset.
 ### Most Frequent Vehicles (High Exposure Volume)
 * **Automobiles (Passenger Cars):** Represent the single highest collision count with **3,205 accidents** (28.2% of non-missing records).
 * **Heavy Freight Lorries (41–100Q):** Rank second with **2,186 accidents** (19.2%), highlighting significant commercial transport involvement.
@@ -49,7 +49,7 @@ Key attributes include **age band, gender, educational level, driving experience
 <img width="1054" height="589" alt="image" src="https://github.com/user-attachments/assets/257110ec-5eb6-4c70-9049-0f83449676b2" />
 
 # Analysis 3
-## Severity vs Weather Shows the relationship between weather conditions and accident severity using colour intensity to highlight patterns.
+### Severity vs Weather Shows the relationship between weather conditions and accident severity using colour intensity to highlight patterns.
 **Rain Skews Lethality:** **Raining** conditions display the highest fatality rate at **1.73%** (darkest cell intensity in the fatal column), outperforming Normal clear weather ($1.34\%$).
 * **Windy Risk:** **Windy** conditions yield the highest serious injury proportion at **16.33%**, followed by clear/normal conditions ($14.65\%$).
 * **Fog Visual Anomaly:** **Fog or mist** shows $0.00\%$ fatalities and $10.00\%$ serious injuries due to sample size constriction ($N=10$) and drivers reducing speeds under poor visibility.
@@ -57,7 +57,7 @@ Key attributes include **age band, gender, educational level, driving experience
 <img width="827" height="498" alt="image" src="https://github.com/user-attachments/assets/8645a2b3-54fe-4dd6-bffa-c626dbe98b97" />
 
 # Analysis 4
-## Casualties Presents the distribution of casualty numbers, helping identify typical versus extreme accident outcomes.
+### Casualties Presents the distribution of casualty numbers, helping identify typical versus extreme accident outcomes.
 **Typical Outcomes (Single Casualty):** Over **67%** of accidents involve exactly **1 casualty**, establishing single-victim incidents as the baseline outcome.
 * **Extreme Mass-Casualty Outliers:** Multi-casualty incidents ($3+$ casualties) represent low-frequency, high-impact tail events, tapering off to extreme outliers of up to 8 casualties in single multi-vehicle collisions.
 
